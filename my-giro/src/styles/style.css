@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  margin: 15px auto;
+}
+header h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+header nav {
+  margin-top: 12px;
+}
+header li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 33px;
+}
+header a {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+}
+header a:hover {
+  text-decoration: underline;
+  color: #F90;
+}
+
+.background {
+  background-color: #EEF2E3;
+  width: 100%;
+  height: 176px;
+}
+
+.name_of_page {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  width: 120px;
+  padding: 55px 0;
+  margin: 0 auto;
+}
+
+.nop2 {
+  width: 411px;
+}
+
+.main {
+  width: 1135px;
+  margin: 66px auto 80px;
+}
+.main .text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  padding-right: 135px;
+}
+.main .text .zag {
+  font-weight: 700;
+}
+.main .text p {
+  margin-top: 24px;
+}
+.main .text p:nth-child(1) {
+  margin-top: 0;
+}
+.main .text a {
+  color: #000;
+}
+.main .choose {
+  text-align: right;
+}
+.main .choose ul li {
+  display: inline;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-left: 15px;
+}
+.main .choose ul li:hover {
+  background-color: #F90;
+  border-radius: 15px;
+  color: #FFF;
+}
+.main .products {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  flex-wrap: wrap;
+}
+.main .products .pusto {
+  height: 16px;
+}
+.main .products .tovar {
+  width: 261px;
+  height: 405px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 60px;
+}
+.main .products .tovar svg {
+  margin-top: 16px;
+  margin-left: -20px;
+}
+.main .products .tovar img {
+  width: 239px;
+  height: 239px;
+}
+.main .products .tovar .top_tv {
+  width: 83px;
+  height: 30px;
+  background-image: url("/src/img/Rectangle 6.svg");
+}
+.main .products .tovar .type_tv {
+  padding: 0 0 0 8px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  color: #FFF;
+}
+.main .products .tovar .name_tv {
+  margin-top: 13px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-left: 28px;
+}
+.main .products .tovar .prise_tv {
+  margin-top: 13px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 28px;
+}
+.main .products .inf_block {
+  display: flex;
+  justify-content: space-between;
+  width: 552px;
+  height: 200px;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 34px 0px rgba(0, 0, 0, 0.5);
+}
+.main .products .inf_block img {
+  width: 180px;
+  padding: 10px;
+}
+.main .products .name_inf_block {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: 50px;
+  margin: auto 0;
+}
+.main input {
+  width: 165px;
+  height: 60.957px;
+  border-radius: 10px;
+  background: #F90;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 53px;
+  margin-left: 484px;
+  cursor: pointer;
+  border: none;
+}
+.main input:active {
+  background-color: rgba(255, 153, 0, 0.692);
+}
+
+footer {
+  color: #8191A6;
+  font-size: 14px;
+  font-weight: 400;
+  height: 331px;
+  background: #EEF2E3;
+}
+footer .napoln {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  padding-top: 76px;
+  margin: 0 auto;
+}
+footer .napoln p {
+  width: 354px;
+}
+footer .napoln p span {
+  padding-top: 23px;
+}
+footer .ulki {
+  display: flex;
+}
+footer ul {
+  margin-left: 42px;
+}
+footer h4 {
+  font-weight: 700;
+  color: #303842;
+  padding-bottom: 20px;
+}
+footer li {
+  list-style-type: none;
+  padding-bottom: 6px;
+}
+footer li a {
+  text-decoration: none;
+  color: #8191A6;
+}/*# sourceMappingURL=style.css.map */
